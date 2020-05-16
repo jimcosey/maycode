@@ -1,0 +1,80 @@
+/* Conatct */
+
+#container-contact {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: roboto;
+}
+.title-contact {
+  color: #fff;
+  padding: 10px 50px 10px 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 1em;
+}
+/*  */
+#formulaire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.form-contact {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/*------------------------------------
+  --------Style formualire contact---------
+  ------------------------------------*/
+.label-style {
+  color: #000;
+  appearance: none;
+  padding: 10px;
+  font-size: 30px;
+}
+.button-contact-style {
+  border-radius: 25px;
+  padding: 20px;
+  border: none;
+  outline: 0;
+  width: 90%;
+  border: 5px solid #26eec8;
+  margin: 30px;
+}
+.textarea {
+  padding: 40px;
+  font-size: 14px;
+  font-weight: 1000;
+  margin: 10px 10px 20px 10px;
+  resize: none;
+  border-radius: 1em;
+  border: none;
+  border: 5px solid #000;
+}
+.button-valid {
+  transition: 0.7s ease-in;
+  background-color: #26eec8;
+  color: #fff;
+  cursor: pointer;
+  width: 50%;
+  margin: 10px;
+  border-radius: 25px;
+  padding: 20px;
+  border: none;
+  outline: 0;
+  box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.108);
+  font-weight: 1000;
+}
+.button-valid:hover {
+  background-color: #000706;
+  box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 1);
+}

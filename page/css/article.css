@@ -1,0 +1,27 @@
+/* ARTICLE */
+#container-article {
+  width: 100%;
+
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.bloc-default {
+  width: 80%;
+  background-color: #f7f7ff;
+  border-radius: 5px;
+  padding: 5px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Responsive bloc */
+
+@media screen and (max-width: 1088px) {
+  .bloc-default {
+    width: 100%;
+  }
+}

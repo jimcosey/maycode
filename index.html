@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/icon.png" style="width: auto;" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/contenu.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- Icon -->
+    <link
+      href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css"
+      rel="stylesheet"
+    />
+    <!-- __Font Links__ -->
+    <!-- FONT 'MULI' -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT 'Open sans' -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT 'Roboto' -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>MayCode - Acceuil</title>
+  </head>
+  <body>
+    <!-- __Header__ -->
+    <header>
+      <!-- Logo -->
+      <div id="logo-main">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <!-- toggle button -->
+      <div class="toggle" id="toggle" onclick="toggle()">
+        <i class="im im-angle-up-circle" id="arrow"></i>
+      </div>
+    </header>
+    <!-- Navigation -->
+
+    <div id="container-slide_menu">
+      <!-- menu slide -->
+      <div class="menu-slide" id="menu-slide">
+        <a href="#"><i class="im im-home active-menu"></i></a>
+        <a href="page/discover.html"><i class="im im-layer"></i></a
+        ><a href="page/contact.html"><i class="im im-mail"></i></a>
+      </div>
+    </div>
+    <!-- Banniere -->
+    <div id="banner">
+      <div id="logo-banner">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M24 12.148l-1.361 1.465-10.639-9.883-10.639 9.868-1.361-1.465 12-11.133 12 11.148zm-4 1.749l-2 10.103h-12l-2-10.103 8-7.444 8 7.444zm-7 6.103c0-.552-.448-1-1-1s-1 .448-1 1 .448 1 1 1 1-.448 1-1zm1-5c0-1.105-.896-2-2-2s-2 .895-2 2 .896 2 2 2 2-.895 2-2z"
+          />
+        </svg>
+      </div>
+      <div id="slogan-banner">
+        <h1 class="font-weight_bold">Vous ètes à l'acceuil</h1>
+        <p>
+          Bienvenue sur Maycode <span class="font-weight_bold">Supreme</span>
+        </p>
+      </div>
+    </div>
+    <!-- Pre - contenu -->
+    <!-- Fix bottom banner -->
+    <div id="fix-high-banner">
+      <div id="offer-banner">
+        <div id="title-offerbanner">
+          <h1 class="font-muli font-size_defaulttitle color-title">
+            Mycode Supreme
+          </h1>
+          <p class="font-muli color-title">Nos meilleures formation</p>
+        </div>
+        <div id="offer-card">
+          <!-- HTML -->
+          <div class="card">
+            <!--  -->
+            <div class="logo-formation-card">
+              <img class="logo-card" src="img/logo-html50.png" alt="" />
+              <h1 class="font-roboto font-weight_bold"></h1>
+            </div>
+            <div class="description-course"></div>
+            <div class="container-formation-contain"></div>
+          </div>
+          <!-- CSS  -->
+          <div class="card">
+            <!-- -->
+            <div class="logo-formation-card">
+              <img class="logo-card" src="img/logo-css50.png" alt="" />
+              <h1 class="font-roboto font-weight_bold"></h1>
+            </div>
+            <div class="description-course"></div>
+            <div class="container-formation-contain"></div>
+          </div>
+          <!-- Javascript -->
+          <div class="card">
+            <div class="logo-formation-card">
+              <img class="logo-card" src="img/logo-js50.png" alt="" />
+              <h1 class="font-roboto font-weight_bold"></h1>
+            </div>
+            <div class="description-course"></div>
+            <div class="container-formation-contain"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer>
+      <h1 class="font-weight_bold font-muli">
+        © Jim Cosey - Toute reproduction interdite
+      </h1>
+    </footer> -->
+    <script src="js/menu-slide.js"></script>
+  </body>
+</html>

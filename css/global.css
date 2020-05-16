@@ -1,0 +1,58 @@
+/* Rénitialisation CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+  position: relative;
+}
+/* Regles content all */
+/* Bold regles */
+.font-weight_bold {
+  font-weight: 1000;
+}
+.font-size_defaulttitle {
+  font-size: 60px;
+}
+.font-roboto {
+  font-family: "roboto";
+}
+.font-muli {
+  font-family: "Muli";
+}
+.color-paragraph {
+  color: #fff;
+}
+.color-title {
+  color: #fff;
+}
+/* Psecific page style */
+.specific-themePage {
+  border-left: 5px solid #000;
+  margin-left: 5px;
+  padding: 5px;
+  color: #0aeb9c;
+}
+/* Color social media */
+.color-yt {
+  color: #ff0000;
+}
+.color-fb {
+  color: #2d88ff;
+}
+/* end colorpage */
+.end-color {
+  width: 80%;
+  height: 5px;
+  background-color: #1a78c2;
+  border-radius: 1em;
+  margin: 10px;
+}
+/* Article regles */
+.title-article {
+  font-family: roboto;
+  color: #fff;
+  background-color: #1a78c2;
+  padding: 1px 10px 1px 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+/* contenu */
+#container-us {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+#ask-illustration {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}

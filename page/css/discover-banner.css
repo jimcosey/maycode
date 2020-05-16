@@ -1,0 +1,154 @@
+/* Banner discover */
+/* Background header and banner */
+#background {
+  background-image: url(../undraw_Golden_gate_bridge_jkph.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1000px;
+}
+#banner {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: roboto;
+  flex-direction: column;
+}
+#slogan-banner {
+  width: 50%;
+  height: 125px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  left: 100px;
+  margin: 5px;
+  padding: 30px;
+  box-shadow: 10px 10px 39px -33px rgba(0, 0, 0, 0.75);
+  border-radius: 1em;
+}
+/* Follow links */
+#follow-links {
+  width: 50%;
+  height: 125px;
+  left: 100px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  /* box-shadow: 10px 10px 39px -33px rgba(0, 0, 0, 0.75); */
+  display: flex;
+  flex-direction: row;
+}
+/* Button links */
+/* Icone button flow */
+.ico-follow {
+  font-size: 2px;
+}
+.button-follow {
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  border-radius: 2em;
+  margin: 0 5px 0 5px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+}
+.button-follow:hover {
+  box-shadow: 10px 10px 36px -18px rgba(0, 0, 0, 0.2);
+  filter: blur(1);
+}
+.button-follow span {
+  margin: 0px 10px 0 10px;
+}
+.button-follow a {
+  color: red;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+/* Responsive  banner*/
+@media screen and (max-width: 1104px) {
+  #banner {
+    align-items: center;
+  }
+  #slogan-banner {
+    left: 0;
+    width: 90%;
+    align-items: center;
+  }
+  #follow-links {
+    left: 0;
+    width: 100%;
+  }
+  .button-follow {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 616px) {
+  #banner {
+    width: 100%;
+  }
+  #slogan-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+  }
+  #slogan-banner p {
+    padding: 6px;
+    font-size: 15px;
+  }
+  #follow-links {
+    left: 0;
+    width: 100%;
+  }
+  .button-follow {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 464px) {
+  #slogan-banner {
+    font-size: 11px;
+  }
+  #follow-links {
+    left: 0;
+    width: 100%;
+  }
+  .button-follow {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 398px) {
+  #slogan-banner {
+    font-size: 10px;
+  }
+  #follow-links {
+    left: 0;
+    width: 100%;
+  }
+  .button-follow {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  #banner {
+    height: 200px;
+  }
+  #slogan-banner {
+    font-size: 9px;
+  }
+  #follow-links {
+    left: 0;
+    width: 100%;
+  }
+  .button-follow {
+    width: 100%;
+  }
+}

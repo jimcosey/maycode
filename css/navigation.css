@@ -1,0 +1,86 @@
+/* __Navigation__ */
+.navigation {
+  width: auto;
+  height: 80px;
+  top: 0;
+  position: fixed;
+}
+/* Links Nav */
+.nav-ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.nav-list {
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0 10px 0 10px;
+}
+.nav-list a {
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+.nav-list a:hover {
+  color: #0aeb9c;
+}
+/* Menu slide */
+#container-slide_menu {
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  position: fixed;
+  z-index: 10000;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 1s ease-in-out;
+}
+/* Button click */
+.toggle {
+  width: auto;
+  height: auto;
+  position: fixed;
+  right: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000000000;
+  cursor: pointer;
+}
+#arrow {
+  /* color: rgb(121, 19, 255); */
+  font-size: 20px;
+  transition: 0.5s;
+  color: #6633ff;
+}
+
+.menu-slide {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  width: auto;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  transition: 1s;
+}
+
+.menu-slide a > .im {
+  flex-direction: row;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+}
+.menu-slide a:hover .im {
+  color: #5c2d91;
+  transform: scale(1.2);
+}
+.menu-slide a .active-menu {
+  transform: scale(1.2);
+  color: #0aeb9c;
+}

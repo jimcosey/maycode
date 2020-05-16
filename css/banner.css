@@ -1,0 +1,151 @@
+/* banniere */
+#banner {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #122d42;
+  overflow: hidden;
+}
+/* logo banner */
+#logo-banner {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  margin-left: 50px;
+  overflow: hidden;
+  align-items: center;
+}
+#logo-banner svg {
+  fill: #fff;
+}
+#slogan-banner {
+  width: 300px;
+  height: auto;
+  margin-left: 10px;
+  font-family: roboto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+/* Banner offer */
+#offer-banner {
+  width: 100%;
+  height: 500px;
+  background: #060608;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#title-offerbanner {
+  width: 100%;
+  height: auto;
+}
+#offer-card {
+  height: 700px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  height: 500px;
+  width: 398px;
+  background-color: #fff;
+  margin: 0 5px 0 5px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 39px -33px rgba(0, 0, 0, 0.75);
+  transition: 0.3s ease-out;
+  display: inline-flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.card:hover {
+  box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.108),
+    0px 1.6px 3.6px rgba(0, 0, 0, 0.132);
+}
+#fix-high-banner {
+  background-color: #ffffff;
+  height: 800px;
+  width: 100%;
+}
+/* logo-formation-card */
+.logo-formation-card {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-card {
+  width: 50px;
+  margin: 5px;
+}
+/* Course */
+.description-course {
+  justify-content: center;
+  width: 95%;
+  height: 75%;
+  background-color: #2a363b;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 50px;
+}
+
+/* Responsive after banner */
+@media screen and (max-width: 514px) {
+  #title-offerbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  #banner {
+    justify-content: center;
+    align-items: center;
+  }
+  #logo-banner {
+    margin: 0;
+  }
+  #title-offerbanner h1 {
+    font-size: 53px;
+  }
+  .card {
+    margin-bottom: 10px;
+    box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.108),
+      0px 1.6px 3.6px rgba(0, 0, 0, 0.132);
+  }
+}
+@media screen and (max-width: 453px) {
+  #title-offerbanner h1 {
+    font-size: 47px;
+  }
+  #banner {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 402px) {
+  #title-offerbanner h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 366px) {
+  #title-offerbanner h1 {
+    font-size: 38px;
+  }
+  #logo-banner {
+    margin-left: 10px;
+  }
+  #slogan-banner {
+    font-size: 15px;
+  }
+}
