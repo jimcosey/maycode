@@ -13,7 +13,7 @@
 }
 /* hero banner */
 #hero-banner {
-  display: inline-flex;
+  display: none;
   justify-content: center;
   width: 50%;
   height: 100%;
