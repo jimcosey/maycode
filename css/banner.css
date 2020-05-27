@@ -31,8 +31,10 @@
 /*  */
 #btn-banner {
   margin-top: 30px;
-  width: auto;
+  width: 100%;
   height: auto;
+  display: inline-flex;
+  justify-content: center;
 }
 .btn-banner1 {
   padding: 10px 50px 10px 50px;
@@ -51,6 +53,7 @@
   color: #ff7845;
   border: 1px solid #ff7845;
   background-color: #fff;
+  scale: 0.9;
 }
 .btn-banner2 {
   margin: 0 10px 0 10px;
@@ -66,6 +69,7 @@
   background-color: #ffdddb;
   border: 1px solid #ff7845;
   color: #ff7845;
+  scale: 0.9;
 }
 /* Responsive  */
 @media screen and (max-width: 1100px) {
@@ -80,6 +84,27 @@
     display: inline-flex;
     align-items: center;
     margin-top: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #banner {
+    flex-direction: column;
+  }
+  #main-banner {
+    height: auto;
+  }
+  #main-banner h1 {
+    font-size: 36px;
+  }
+  #main-banner p {
+    font-size: 14px;
+  }
+  #banner-illustration {
+    width: auto;
+    height: auto;
+  }
+  #banner-illustration img {
+    width: 100px;
   }
 }
 @media screen and (max-width: 360px) {
