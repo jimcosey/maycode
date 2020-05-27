@@ -33,7 +33,11 @@
       href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
+    <!-- FONT 'Fredoka One' -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
     <title>MayCode - Acceuil</title>
   </head>
   <body>
@@ -43,11 +47,12 @@
       <div id="logo-main">
         <img src="img/logo.png" alt="" />
       </div>
-      <!-- toggle button -->
-      <div class="toggle" id="toggle" onclick="toggle()">
-        <i class="im im-angle-up-circle" id="arrow"></i>
-      </div>
+      <div id="header-description"></div>
     </header>
+    <!-- toggle button -->
+    <div class="toggle" id="toggle" onclick="toggle()">
+      <i class="im im-menu" id="arrow"></i>
+    </div>
     <!-- Navigation -->
     <div id="container-slide_menu">
       <!-- menu slide -->
@@ -59,27 +64,19 @@
     </div>
     <!-- Banniere -->
     <div id="banner">
-      <div id="hero-banner"></div>
-      <div id="slogan-banner">
-        <h1 class="font-weight_bold">Vous ètes à l'acceuil</h1>
-        <p>
-          Bienvenue sur Maycode
-          <span class="font-weight_bold" style="padding: 0 10px 0 5px;"
-            >Supreme</span
-          ><span
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h18v-10h3zm-5 8h-14v-10.26l7-6.912 7 6.99v10.182zm-5-1h-4v-6h4v6z"
-              /></svg
-          ></span>
-        </p>
+      <div id="main-banner">
+        <h1 class="font-fredoka">Travaillez n'importe ou !</h1>
+        <p>La liberté de concevoir notre imaginaire avec le code</p>
+        <div id="btn-banner" class="font-roboto">
+          <button class="btn-banner1">Follow</button>
+          <button class="btn-banner2">Appropos</button>
+        </div>
+      </div>
+      <div id="banner-illustration">
+        <img src="img/logo.png" alt="" />
       </div>
     </div>
+    <div id="presentation" style="height: 100vh; width: 100%;"></div>
     <script src="js/menu-slide.js"></script>
   </body>
 </html>

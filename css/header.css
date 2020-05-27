@@ -2,19 +2,27 @@
 header {
   height: 80px;
   width: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
+  background-color: #fffcfa;
 }
 /* Logo Header */
 #logo-main {
   width: auto;
   display: inline-flex;
   justify-content: center;
-  flex-direction: row;
+
+  align-items: center;
 }
 #logo-main img {
-  width: 40px;
+  width: 60px;
+}
+#header-description {
+  display: inline-flex;
+  width: 50%;
+  height: auto;
+  align-items: center;
 }
 #anime {
   cursor: pointer;

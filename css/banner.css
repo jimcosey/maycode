@@ -3,86 +3,60 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: center;
-  background-color: #161e2a;
+  background-color: #fffcfa;
   overflow: hidden;
   justify-content: center;
-  background-image: url(/img/hero-background.024946252a64.svg);
-  background-repeat: no-repeat;
-  background-position-y: bottom;
+  align-items: center;
 }
-/* hero banner */
-#hero-banner {
-  display: none;
-  justify-content: center;
+#main-banner {
   width: 50%;
   height: 100%;
-  overflow: hidden;
-  background-image: url(/img/user.svg);
-  background-size: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  align-items: center;
-}
-#hero-banner svg {
-  fill: #fff;
-  width: 0px;
-}
-#slogan-banner {
-  width: auto;
-  height: 100px;
-  font-family: muli;
   display: inline-flex;
-  flex-direction: column;
   justify-content: center;
-  color: rgb(255, 254, 254);
-  font-size: 30px;
-  /* the form */
-
-  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
 }
-#slogan-banner p {
-  background-color: #fff;
+#banner h1 {
+  font-size: 44px;
   padding: 10px;
-  color: #161e2a;
-  border-radius: 5px;
 }
-
-/* Responsive after banner */
-@media screen and (max-width: 1109px) {
-  #banner {
-    flex-direction: column;
-  }
-  #hero-banner {
-    height: auto;
-    margin: 10px;
-  }
-  #title-offerbanner h1 {
-    font-size: 53px;
-  }
-  .card {
-    margin-bottom: 10px;
-    box-shadow: 0px 0.3px 0.9px rgba(0, 0, 0, 0.108),
-      0px 1.6px 3.6px rgba(0, 0, 0, 0.132);
-  }
+/*  */
+#btn-banner {
+  margin-top: 30px;
+  width: auto;
+  height: auto;
 }
-@media screen and (max-width: 453px) {
-  #title-offerbanner h1 {
-    font-size: 47px;
-  }
-  #banner {
-    justify-content: center;
-    align-items: center;
-  }
+.btn-banner1 {
+  padding: 10px 50px 10px 50px;
+  margin: 0 10px 0 10px;
+  border: none;
+  background-color: #ff7845;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-@media screen and (max-width: 402px) {
+.btn-banner1:hover {
+  padding: 10px 50px 10px 50px;
+  margin: 0 10px 0 10px;
+  border: none;
+  color: #ff7845;
+  border: 1px solid #ff7845;
+  background-color: #fff;
 }
-@media screen and (max-width: 366px) {
-  #hero-banner {
-    width: 100%;
-  }
-  #slogan-banner {
-    font-size: 15px;
-  }
+.btn-banner2 {
+  margin: 0 10px 0 10px;
+  padding: 10px 50px 10px 50px;
+  border: none;
+  background-color: #ffefea;
+  border-radius: 10px;
+  color: #ff8d63;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.btn-banner2:hover {
+  background-color: #ffdddb;
+  border: 1px solid #ff7845;
+  color: #ff7845;
 }
