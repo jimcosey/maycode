@@ -44,8 +44,8 @@
   width: auto;
   height: auto;
   position: fixed;
-  right: 40px;
-
+  right: 10px;
+  top: 10px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -60,22 +60,22 @@
 #container-slide_menu {
   display: flex;
   align-items: center;
-  display: none;
 }
 .menu-slide {
   align-items: center;
   justify-content: space-evenly;
   display: flex;
   width: auto;
-  height: 60px;
+  height: 40px;
   position: fixed;
   width: 100%;
   transition: 1s;
+  background-color: rgb(255, 255, 255, 0.98);
 }
 
 .menu-slide a > .im {
   flex-direction: row;
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(0, 0, 0);
   transition: 0.4s ease-in-out;
 }

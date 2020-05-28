@@ -133,3 +133,24 @@
     width: 100px;
   }
 }
+@media screen and (max-width: 456px) {
+  #banner {
+    flex-direction: column;
+  }
+  #main-banner {
+    height: auto;
+  }
+  #main-banner h1 {
+    font-size: 26px;
+  }
+  #main-banner p {
+    font-size: 14px;
+  }
+  #banner-illustration {
+    width: auto;
+    height: auto;
+  }
+  #banner-illustration img {
+    width: 100px;
+  }
+}
