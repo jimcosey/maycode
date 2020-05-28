@@ -60,6 +60,7 @@
 #container-slide_menu {
   display: flex;
   align-items: center;
+  display: none;
 }
 .menu-slide {
   align-items: center;
