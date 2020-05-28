@@ -4,8 +4,7 @@ function toggle() {
     document.getElementById("arrow").style.transform = "rotate(-180deg)";
     document.getElementById("arrow").style.color = "#f34335";
     document.getElementById("menu-slide").style.bottom = "-100%";
-    document.getElementById("container-slide_menu").style.backgroundColor =
-      "none";
+
     span = 1;
   } else {
     document.getElementById("arrow").style.transform = "rotate(0deg)";
