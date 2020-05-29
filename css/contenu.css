@@ -34,25 +34,26 @@
 
 /* contenu */
 #presentation {
-  width: auto;
+  width: 100%;
   height: 100vh;
-  display: none;
+  display: flex;
+  padding: 10px;
 }
 #presentation-container {
   width: 100%;
-  height: 500px;
-  display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
-  grid-template-rows: 6fr 1fr 2fr 1fr;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 .box {
   background-color: #ffdddb;
-  border: 1px solid #ff7845;
   color: #ff7845;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 1em;
+  width: 98%;
+  height: 500px;
 }
 /* Responsive */
 @media screen and (max-width: 654px) {
