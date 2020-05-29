@@ -1,29 +1,29 @@
 /* __Header__ */
 header {
-  height: 80px;
+  margin-top: 5px;
+  display: flex;
   width: 100%;
-  display: none;
-  align-items: center;
+  height: 50px;
   justify-content: center;
-  background-color: #fffcfa;
-}
-/* Logo Header */
-#logo-main {
-  width: auto;
-  display: inline-flex;
-  justify-content: center;
-
   align-items: center;
 }
-#logo-main img {
-  width: 60px;
-}
-#header-description {
-  display: inline-flex;
+#annonce {
+  height: 100%;
   width: 50%;
-  height: auto;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  background-color: #f34335;
+  border-radius: 2em;
+  color: #fff;
 }
-#anime {
-  cursor: pointer;
+
+#annonce img {
+  width: 30px;
+  margin: 0 10px 0 10px;
+}
+@media screen and (max-width: 1328px) {
+  header {
+    display: none;
+  }
 }

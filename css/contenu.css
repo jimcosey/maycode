@@ -65,9 +65,22 @@
   filter: blur(50%);
 }
 /* Responsive */
+@media screen and (max-width: 1328px) {
+  .box h2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 676px) {
+  .box h2 {
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 654px) {
   .box-socialMedia {
     font-size: 15px;
+  }
+  .box h2 {
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 466px) {
@@ -78,5 +91,8 @@
 @media screen and (max-width: 456px) {
   .box-socialMedia {
     font-size: 10px;
+  }
+  .box h2 {
+    font-size: 19px;
   }
 }

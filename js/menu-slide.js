@@ -1,7 +1,7 @@
 var span = 0;
 function toggle() {
   if (span == 0) {
-    document.getElementById("arrow").style.transform = "rotate(-180deg)";
+    document.getElementById("arrow").style.transform = "rotate(360deg)";
     document.getElementById("arrow").style.color = "#f34335";
     document.getElementById("menu-slide").style.bottom = "-100%";
 
